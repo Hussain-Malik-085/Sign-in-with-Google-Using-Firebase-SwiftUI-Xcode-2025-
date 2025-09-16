@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "5C9B339E-2D5F-4653-AEBB-AB165D26E4F5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:FirebaseAuthentication.xcodeproj",
+      "identifier" : "B8D2D90B2E7953B400033A7E",
+      "name" : "FirebaseAuthentication"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FirebaseAuthentication.xcodeproj",
+        "identifier" : "B8D2D9182E7953B600033A7E",
+        "name" : "FirebaseAuthenticationTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:FirebaseAuthentication.xcodeproj",
+        "identifier" : "B8D2D9222E7953B600033A7E",
+        "name" : "FirebaseAuthenticationUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
